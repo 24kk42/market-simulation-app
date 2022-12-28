@@ -10,7 +10,7 @@ public  class FileIO {
     public ArrayList<ArrayList<String>> readLines() throws IOException {
         try {
             ArrayList<ArrayList<String>> lines=new ArrayList<>();
-            String relativePath = "src\\" + "ExampleCommands.csv" ;
+            String relativePath = "src\\" + "commands.csv";
             FileReader fileReader = new FileReader(relativePath);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String line ;
